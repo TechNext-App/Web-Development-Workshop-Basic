@@ -1,0 +1,80 @@
+/* Font for coding */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;900&display=swap');
+/* Pretty Font ~~ Headers */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+/* Body Font */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Dongle:wght@300;400;700&display=swap');
+
+.body_container {
+    margin: 0 auto;
+    font-family: 'Chakra Petch';
+}
+
+.pre_code_container {
+    font-family: "Inconsolata";
+    border: solid black 0.5em;
+    border-radius: 0.3em;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.code_container {
+    margin: 0.25em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    word-break: normal;
+    white-space: normal;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Comfortaa';
+    /* color: whitesmoke; */
+    text-decoration: overline;
+    text-shadow: 3px 3px gray;
+}
+
+.hr {
+    border-bottom: 3px solid black;
+}
+
+.main_container {
+    padding: 1em 0.5em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.nav_links { 
+    text-decoration: none;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: black;
+    font-family: 'Comfortaa';
+}
+
+.terminal {
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    border-bottom: 1px solid green;
+}
+
+#input:before {
+    content: ">";
+    padding-left: 1.0rem;
+    color: green;
+}
