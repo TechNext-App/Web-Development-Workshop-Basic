@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;900&display=swap');
+
+/* Font for coding */
+.body_container {
+    margin: 0 auto;
+}
+
+.pre_code_container {
+    font-family: "Inconsolata";
+    border: solid black 0.5em;
+    border-radius: 0.25em;
+    /* padding: 0.25em; */
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 700px; */
+}
+
+.code_container {
+    margin: 0.25em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    word-break: normal;
+    white-space: normal;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    /* background-color: red; */
+}
+
+.main_container {
+    /* padding-top: 1em; */
+    /* padding-bottom: 1em; */
+    padding: 1em 0.5em;
+    /* padding: 0 20px; */
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 750px) {
+    .body_container {
+        grid-template-columns: 1fr;
+        /* border: 3px red solid; */
+        /* padding: 1.5em; */
+        /* background-color: lightblue; */
+    }
+}
+
